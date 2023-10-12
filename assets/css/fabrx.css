@@ -168,6 +168,9 @@ a{text-decoration: none;}
     align-items: center;
     gap: 10px;
 }
+.loadbtn a:hover{
+    background-color:#eee ;
+}
 
 /* EMİRHAN */
 

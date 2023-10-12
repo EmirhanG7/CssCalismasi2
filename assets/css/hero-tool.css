@@ -1,0 +1,118 @@
+a {text-decoration: none;}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.leftSide {
+    width: 640px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 165px;
+    padding-right: 40px;
+}
+.leftSide h1 {
+    color:#212121;
+
+    /* H1/80px/Medium */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 81px; /* 101.25% */
+    letter-spacing: -0.9px;
+    margin-bottom: 24px;
+}
+.leftSide p {
+    color: var(--black-800, #212121);
+
+    /* Lead/20px/Regular */
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    margin-bottom: 32px;
+}
+
+.leftSide a.launchBtn {
+    text-decoration: none;
+    background-color: blue;
+    color: #fff;
+    padding: 16px 72px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px; /* 139.13% */
+}
+
+.rightSide {
+    width: 800px;
+    background-color: #5D37A2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    width: 1440px;
+    height: 88px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    padding-right: 165px;
+}
+
+.fabrx {
+    padding: 32px 0px 32px 165px;
+}
+
+.avatar {
+    display: flex;
+    margin-right: 68px;
+    gap: 68px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.brucelee {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.brucelee img {
+    border-radius: 50%;
+}
+
+.brucelee a {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+} 
+
+.yildiz {
+    color: #DD5498;
+}
+
+.altTire {
+    color: #44D2A8;
+}
+
+.sapka {
+    color: #5A9CFE;
+}
