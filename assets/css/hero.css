@@ -9,6 +9,7 @@
     background-image: url('../img/hero/Image\ 2.jpg');
     background-repeat: no-repeat;
     height: 1024px;
+    margin-bottom: 40px;
 }
 .hero {
     font-family: Arial;
@@ -93,13 +94,16 @@ a{
 
 }
 
-.odevLink{
-    width: 1110px;
-    margin: 0 auto;
-    padding-top: 110px;
+
+
+.odevlink{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+
 }
 
-.odevLink a{
+.odevlink a {
     color: #fff;
     text-decoration: none;
     font-size: 23px;
@@ -109,4 +113,5 @@ a{
     padding: 16px 40px;
     display: inline-block;
     border-radius: 32px;
+    text-shadow: 2px 4px 3px rgba(0,0,0, 0.3);
 }

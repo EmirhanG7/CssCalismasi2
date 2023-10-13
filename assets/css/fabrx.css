@@ -168,9 +168,6 @@ a{text-decoration: none;}
     align-items: center;
     gap: 10px;
 }
-.loadbtn a:hover{
-    background-color:#eee ;
-}
 
 /* EMİRHAN */
 
@@ -376,12 +373,17 @@ a{text-decoration: none;}
     align-items: center;
 }
 
-.odevLink{
-    width: 1110px;
-    margin: 0 auto;
-    padding-top: 300px;
+
+
+.odevlink {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+
+    
 }
-.odevLink a{
+
+.odevlink a {
     background-color: #FD7E14;
     color: #fff;
     font-size: 23px;
@@ -392,5 +394,5 @@ a{text-decoration: none;}
     border-radius: 3px;
     text-decoration: none;
     text-shadow: 2px 4px 3px rgba(0,0,0, 0.3);
-
+    
 }
